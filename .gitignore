@@ -1,0 +1,50 @@
+Plaintext
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared libraries
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+flight_sim
+
+# IDE-specific metadata and local configurations
+.vs/
+.vscode/
+CMakeSettings.json
+*.user
+*.suo
+*.sln
+*.vcxproj
+
+# CMake build build artifacts
+build/
+CMakeCache.txt
+CMakeFiles/
+CMakeTargetDirectories.txt
+cmake_install.cmake
+Makefile
+
+# Runtime generated data paths
+# data/*.csv
