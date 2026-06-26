@@ -160,9 +160,6 @@ M = q\_bar \* S \* c \* CM
 ├── .gitignore
 ├── LICENSE
 └── README.md
-```
-
-## 
 
 ## Build Instructions
 
