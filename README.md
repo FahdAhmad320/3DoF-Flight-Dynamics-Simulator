@@ -114,11 +114,14 @@ M = q\_bar \* S \* c \* CM
 
 ## Repository Structure
 
+## Repository Structure
+
 3DoF-Flight-Dynamics-Simulator/
+│
 ├── include/
-│   ├── Aero\_model.h
+│   ├── Aero_model.h
 │   ├── Atmosphere.h
-│   ├── csv\_writer.h
+│   ├── csv_writer.h
 │   ├── integrator.h
 │   ├── simulator.h
 │   ├── State.h
@@ -126,9 +129,9 @@ M = q\_bar \* S \* c \* CM
 │   └── Vehicle.h
 │
 ├── src/
-│   ├── Aero\_model.cpp
+│   ├── Aero_model.cpp
 │   ├── Atmosphere.cpp
-│   ├── csv\_writer.cpp
+│   ├── csv_writer.cpp
 │   ├── simulator.cpp
 │   └── main.cpp
 │
@@ -136,15 +139,28 @@ M = q\_bar \* S \* c \* CM
 │   └── trajectory.csv
 │
 ├── docs/
-│   ├── THEORY.md
-│   └── ARCHITECTURE.md
+│   ├── Theory.md
+│   └── Control_Law.md
 │
 ├── plots/
+│   ├── trajectory_profile.png
+│   ├── velocity_history.png
+│   ├── pitch_response.png
+│   ├── alpha_trim.png
+│   ├── Lift-to-Drag_Ratio_history.png
+│   ├── Pitching_Moment_history.png
+│   └── altitude_history.png
+│
 ├── screenshots/
+│   ├── build_success.png
+│   ├── ide_workspace.png
+│   └── runtime_execution.png
+│
 ├── CMakeLists.txt
-├── LICENSE
 ├── .gitignore
+├── LICENSE
 └── README.md
+```
 
 ## 
 
