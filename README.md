@@ -114,8 +114,6 @@ M = q\_bar \* S \* c \* CM
 
 ## Repository Structure
 
-## Repository Structure
-
 3DoF-Flight-Dynamics-Simulator/
 │
 ├── include/
