@@ -23,7 +23,7 @@ namespace sim
 			throw std::runtime_error("Failed to open CSV file: " + file_path);
 		}
 
-		file << "time (s),x (m),z (m),V (m/s),gamma_Deg (deg),theta_deg (deg),q_deg_s (deg/s),alpha_deg (deg),lift (N),drag (N),pitch_moment (N.m),density (kg/m^3)\n";
+		file << "time (s),x (m),z (m),V (m/s),gamma_Deg (deg),theta_deg (deg),q_deg_s (deg/s),alpha_deg (deg),lift (N),drag (N),pitch_moment (N.m),density (kg/m^3), L/D ratio\n";
 		file << std::fixed << std::setprecision(6);
 
 		constexpr double rad_to_deg = 180.0 / 3.14159265358979323846;
@@ -41,7 +41,8 @@ namespace sim
 				<< s.lift << ","
 				<< s.drag << ","
 				<< s.pitch_moment << ","
-				<< s.density << "\n";
+				<< s.density << ","
+				<< s.lift_to_drag_ratio << "\n";
 		}
 	}
 }

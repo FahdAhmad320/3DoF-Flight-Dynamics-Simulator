@@ -19,6 +19,7 @@ namespace sim
 		double drag{ 0.0 };
 		double pitch_moment{ 0.0 };
 		double density{ 0.0 };
+		double lift_to_drag_ratio{ 0.0 };
 	};
 
 	class Simulator
