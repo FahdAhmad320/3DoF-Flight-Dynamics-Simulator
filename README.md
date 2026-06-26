@@ -114,13 +114,14 @@ M = q\_bar \* S \* c \* CM
 
 ## Repository Structure
 
+```text
 3DoF-Flight-Dynamics-Simulator/
 │
 ├── include/
 │   ├── Aero_model.h
 │   ├── Atmosphere.h
 │   ├── csv_writer.h
-│   ├── integrator.h
+│   ├── Integrator.h
 │   ├── simulator.h
 │   ├── State.h
 │   ├── vector2.h
@@ -142,12 +143,12 @@ M = q\_bar \* S \* c \* CM
 │
 ├── plots/
 │   ├── trajectory_profile.png
+│   ├── altitude_history.png
 │   ├── velocity_history.png
 │   ├── pitch_response.png
 │   ├── alpha_trim.png
 │   ├── Lift-to-Drag_Ratio_history.png
-│   ├── Pitching_Moment_history.png
-│   └── altitude_history.png
+│   └── Pitching_Moment_history.png
 │
 ├── screenshots/
 │   ├── build_success.png
@@ -158,6 +159,7 @@ M = q\_bar \* S \* c \* CM
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
 ## Build Instructions
 
