@@ -25,3 +25,22 @@ add_executable(flight_sim
 )
 
 target_link_libraries(flight_sim PRIVATE sim_engine)
+
+include(CTest)
+
+if(BUILD_TESTING)
+
+    include(FetchContent)
+
+    FetchContent_Declare(
+        googletest
+        URL https://github.com/google/googletest/archive/refs/tags/v1.15.2.zip
+    )
+
+    set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+
+    FetchContent_MakeAvailable(googletest)
+
+    add_subdirectory(tests)
+
+endif()
