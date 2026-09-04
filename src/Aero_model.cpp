@@ -15,7 +15,7 @@ namespace sim
 
 		//Aero parameters
 		afm.alpha = state.theta - state.gamma;
-		afm.alpha = std::clamp(afm.alpha, -0.35, 0.35);
+		afm.alpha = std::clamp(afm.alpha, -alpha_limit, alpha_limit);
 		afm.dynamic_pressure = 0.5 * rho * std::pow(V, 2);
 
 		//Coefficients
