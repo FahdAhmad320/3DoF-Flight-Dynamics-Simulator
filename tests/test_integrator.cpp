@@ -1,5 +1,4 @@
 #include <gtest/gtest.h>
-
 #include "Integrator.h"
 
 TEST(IntegratorTest, ConstantDerivativeProducesExpectedState)

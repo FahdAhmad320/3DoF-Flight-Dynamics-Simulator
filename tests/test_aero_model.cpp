@@ -1,3 +1,6 @@
+#include <gtest/gtest.h>
+#include "Integrator.h"
+
 TEST(AeroModelTest, ZeroAlphaProducesZeroLiftForZeroControl)
 {
     sim::Vehicle vehicle{};
