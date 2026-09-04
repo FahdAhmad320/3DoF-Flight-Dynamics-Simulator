@@ -1,5 +1,5 @@
 #include "simulator.h"
-#include "integrator.h"
+#include "Integrator.h"
 #include <cmath>
 #include <stdexcept>
 #include <algorithm>
