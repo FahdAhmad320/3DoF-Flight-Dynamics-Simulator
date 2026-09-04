@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
-#include "Integrator.h"
+
+#include "Aero_model.h"
 
 TEST(AeroModelTest, ZeroAlphaProducesZeroLiftForZeroControl)
 {
